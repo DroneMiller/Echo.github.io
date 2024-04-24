@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--=============== FLATICON ===============-->
+        <link 
+            rel='stylesheet' 
+            href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css' 
+        />
+
+        <!--=============== SWIPER CSS ===============-->
+        <link 
+            rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <title>Echo | Details Product</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <div class="header__top">
+                <div class="header__container container">
+                    <div class="header__contact">
+                        <span>(+1) - 2345 - 6789</span>
+
+                        <span>Our location</span>
+                    </div>
+
+                    <p class="header__alert-news">
+                        Super Value Deals - Save more with coupons
+                    </p>
+
+                    <a href="login-register.html" class="header__top-action">
+                        Log In / Sign Up
+                    </a>
+                </div>
+            </div>
+
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/logo.png" alt="" class="nav__logo-img">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="shop.html" class="nav__link">Shop</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="accounts.html" class="nav__link">My Account</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="conpare.html" class="nav__link">Compare</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="login-register.html" class="nav__link">Login</a>
+                        </li>
+                    </ul>
+
+                    <div class="header__search">
+                        <input
+                            type="text" 
+                            placeholder="Search for items..." 
+                            class="form__input"
+                        />
+
+                        <button class="search__btn">
+                            <img src="assets/img/search.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="header__user-actions">
+                    <a href="wishlist.html" class="header__action-btn">
+                        <img src="assets/img/icon-heart.svg" alt="add to wishlist">
+                        <span class="count">3</span>
+                    </a>
+
+                    <a href="cart.html" class="header__action-btn">
+                        <img src="assets/img/icon-cart.svg" alt="add to cart">
+                        <span class="count">3</span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== BREADCRUMB ===============-->
+            <section class="breadcrumb">
+                <ul class="breadcrumb__list flex container">
+                    <li><a href="index.html" class="bredcrumb__link">Home</a></li>
+                    <li><span class="breadcrumb__link">></span></li>
+                    <li><span class="breadcrumb__link">Fashion</span></li>
+                    <li><span class="breadcrumb__link">></span></li>
+                    <li><span class="breadcrumb__link">Henley Shirt</span></li>
+                </ul>
+            </section>
+
+            <!--=============== DETAILS ===============-->
+            <section class="details section--lg">
+                <div class="details__container container grid">
+                    <div class="details__group">
+                        <img src="assets/img/product-8-1.jpg" alt="" class="details__img">
+
+                        <div class="details__small-images grid">
+                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img">
+                            <img src="assets/img/product-8-1.jpg" alt="" class="details__small-img">
+                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img">
+                        </div>
+                    </div>
+
+                    <div class="details__group">
+                        <h3 class="details__title">Henley Shirt</h3>
+                        <p class="details__brand">Brands: <span>adidas</span></p>
+
+                        <div class="details__price flex">
+                            <span class="new__price">$116</span>
+                            <span class="old__price">$200.00</span>
+                            <span class="save__price">25% off</span>
+                        </div>
+
+                        <p class="short__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita obcaecati sunt quo soluta possimus, vitae modi dolorem iusto hic alias molestiae mollitia consequuntur. Dolore, quibusdam mollitia. Rem harum eum et.
+                        </p>
+
+                        <ul class="product__list">
+                            <li class="list__item flex">
+                                <i class="fi-rs-crown"></i> 1 Year AL Jazeera Brand Warranty
+                            </li>
+
+                            <li class="list__item flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                                    <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                                  </svg>
+                                   30 Days Return Policy
+                            </li>
+
+                            <li class="list__item flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1"/>
+                                  </svg>
+                                   Cash on Delivery available
+                            </li>
+                        </ul>
+
+                        <div class="details__color flex">
+                            <span class="details__color-title">Color</span>
+
+                            <ul class="color__list">
+                                <li>
+                                    <a href="#" class="color__link" style="background-color: hsl(37, 100%, 65%);"></a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="color__link" style="background-color: hsl(353, 100%, 67%);"></a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="color__link" style="background-color: hsl(49, 100%, 60%);"></a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="color__link" style="background-color: hsl(304, 100%, 78%);"></a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="color__link" style="background-color: hsl(126, 100%, 52%);"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="details__size flex">
+                            <span class="details__size-title">Size</span>
+
+                            <ul class="size__list">
+                                <li>
+                                    <a href="#" class="size__link size-active">M</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="size__link">L</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="size__link">XL</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="size__link">XXl</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="details__action">
+                            <input type="number" class="quantity" value="3">
+
+                            <a href="#" class="btn btn__sm">Add to Cart</a>
+
+                            <a href="#" class="details__action-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                  </svg>
+                        </div>
+
+                        <ul class="details__meta">
+                            <li class="mete__list flex"><span>SKU:</span> FWM15VKT</li>
+                            <li class="mete__list flex"><span>Tags:</span> Cloth, Women, Dress</li>
+                            <li class="mete__list flex"><span>Availability:</span> 8 items in stock</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== DETAILS TAB ===============-->
+            <section class="details__tab container">
+                <div class="details__tabs">
+                    <span class="detail__tab active-tab"  data-target="#info">
+                        Additional Info
+                    </span>
+                    <span class="detail__tab"  data-target="#reviews">Reviews(3)</span>
+                </div>
+
+                <div class="details__tabs-content">
+                    <div class="details__tab-content active-tab" content id="info">
+                        <table class="info__table">
+                            <tr>
+                                <th>Set Up</th>
+                                <td>35"L x 24"w x 37-45"(font to back wheel)</td>
+                            </tr>
+
+                            <tr>
+                                <th>Fold(w/o wheels)</th>
+                                <td>32.5"L x 24"W x 18.5H</td>
+                            </tr>
+
+                            <tr>
+                                <th>Frame</th>
+                                <td>Aluminum</td>
+                            </tr>
+
+                            <tr>
+                                <th>Weight(w/o wheels)</th>
+                                <td>24LBS</td>
+                            </tr>
+
+                            <tr>
+                                <th>Weight Capacity</th>
+                                <td>60LBS</td>
+                            </tr>
+
+                            <tr>
+                                <th>Width</th>
+                                <td>24"</td>
+                            </tr>
+
+                            <tr>
+                                <th>Handle height(ground to handle)</th>
+                                <td>37-45"</td>
+                            </tr>
+
+                            <tr>
+                                <th>Wheels</th>
+                                <td>12" air / wide track slick tread</td>
+                            </tr>
+
+                            <tr>
+                                <th>Seat back height</th>
+                                <td>21.5"</td>
+                            </tr>
+
+                            <tr>
+                                <th>Head room(inside canopy)</th>
+                                <td>25"</td>
+                            </tr>
+
+                            <tr>
+                                <th>Color</th>
+                                <td>Black, Blue, Red, White</td>
+                            </tr>
+
+                            <tr>
+                                <th>Size</th>
+                                <td>M, S</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="details__tab-content" content id="reviews">
+                        <div class="reviews__container grid">
+                            <div class="review__single">
+                                <img src="assets/img/avatar-1.jpg" alt="" class="review__img">
+                                <h4 class="reveiw__title">Jacky Chan</h4>
+
+                                <div class="review__data">
+                                    <div class="review__rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                    </div>
+
+                                    <p class="review__description">Thank you very fast shiping from Poland only 3 days.</p>
+
+                                    <span class="review__date">December 4, 2020 at 3:12 pm</span>
+                                </div>
+                            </div>
+
+                            <div class="review__single">
+                                <img src="assets/img/avatar-2.jpg" alt="" class="review__img">
+                                <h4 class="reveiw__title">Jacky Chan</h4>
+
+                                <div class="review__data">
+                                    <div class="review__rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                    </div>
+
+                                    <p class="review__description">Great low price and works wells.</p>
+
+                                    <span class="review__date">December 4, 2020 at 3:12 pm</span>
+                                </div>
+                            </div>
+
+                            <div class="review__single">
+                                <img src="assets/img/avatar-3.jpg" alt="" class="review__img">
+                                <h4 class="reveiw__title">Jacky Chan</h4>
+
+                                <div class="review__data">
+                                    <div class="review__rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                    </div>
+
+                                    <p class="review__description"></p>
+
+                                    <span class="review__date">December 4, 2020 at 3:12 pm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review__form">
+                            <h4 class="review__form-title">Add a review</h4>
+
+                            <div class="rate__product">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </div>
+
+                            <form action="" class="form grid">
+                                <textarea class="form__input textarea" placeholder="Write Comment"></textarea>
+
+                                <div class="form__group grid">
+                                    <input type="text" placeholder="Name" class="form__input">
+
+                                    <input type="email" placeholder="Email" class="form__input">
+                                </div>
+
+                                <div class="form__btn">
+                                    <button class="btn">Submit Review</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="products container section--lg">
+                <h3 class="section__title"><span>Related</span> Products</h3>
+
+                <div class="products__container grid">
+                    <div class="product__item">  <!-- light-orange -->  <!-- row 3 -->
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="https://img.ksp.co.il/item/262194/b_1.jpg?v=5" alt="" class="product__img default">
+                    
+                                <img src="https://img.ksp.co.il/item/262194/b_2.jpg?v=5" alt="" class="product__img hover">
+                            </a>
+                    
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick view">
+                                    <img src="assets/icons/eye-fill.svg" alt="eye-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Add to WishList">
+                                    <img src="assets/icons/heart-fill.svg" alt="heart-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <img src="assets/icons/shuffle.svg" alt="shuffle" class="icon">
+                                </a>
+                            </div>
+                    
+                            <div class="product__badge light-orange">BestBuy</div>
+                        </div>
+                    
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Samsung 65'' QLED 4K</h3>
+                            </a>
+                            <div class="product__rating">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$593.20</span>
+                                <span class="old__price">$993.16</span>
+                            </div>
+                    
+                            <a href="#" class="action__b cart__btn action__btn" aria-label="Add to Cart">
+                                <img src="assets/icons/cart-plus.svg" alt="cart-plus">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="product__item">  <!-- light-blue -->
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="https://img.ksp.co.il/item/283149/b_1.jpg?v=5" alt="" class="product__img default">
+                    
+                                <img src="https://img.ksp.co.il/item/283149/b_2.jpg?v=5" alt="" class="product__img hover">
+                            </a>
+                    
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick view">
+                                    <img src="assets/icons/eye-fill.svg" alt="eye-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Add to WishList">
+                                    <img src="assets/icons/heart-fill.svg" alt="heart-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <img src="assets/icons/shuffle.svg" alt="shuffle" class="icon">
+                                </a>
+                            </div>
+                    
+                            <div class="product__badge light-blue">BestBuy</div>
+                        </div>
+                    
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Samsung Galaxy Watch6 Classic</h3>
+                            </a>
+                            <div class="product__rating">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$264.30</span>
+                                <span class="old__price">$309.25</span>
+                            </div>
+                    
+                            <a href="#" class="action__b cart__btn action__btn" aria-label="Add to Cart">
+                                <img src="assets/icons/cart-plus.svg" alt="cart-plus">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="product__item">  <!-- light-green -->
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="https://img.ksp.co.il/item/67831/b_1.jpg?v=5" alt="" class="product__img default">
+                    
+                                <img src="https://img.ksp.co.il/item/67831/b_3.jpg?v=5" alt="" class="product__img hover">
+                            </a>
+                    
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick view">
+                                    <img src="assets/icons/eye-fill.svg" alt="eye-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Add to WishList">
+                                    <img src="assets/icons/heart-fill.svg" alt="heart-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <img src="assets/icons/shuffle.svg" alt="shuffle" class="icon">
+                                </a>
+                            </div>
+                    
+                            <div class="product__badge light-green">BestBuy</div>
+                        </div>
+                    
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Printer HP Laser MFP M137fnw</h3>
+                            </a>
+                            <div class="product__rating">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$195.40</span>
+                                <span class="old__price">$228.78</span>
+                            </div>
+                    
+                            <a href="#" class="action__b cart__btn action__btn" aria-label="Add to Cart">
+                                <img src="assets/icons/cart-plus.svg" alt="cart-plus">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="product__item">  <!-- light-pink -->
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="https://img.ksp.co.il/item/230772/b_1.jpg?v=5" alt="" class="product__img default">
+                    
+                                <img src="https://img.ksp.co.il/item/230772/b_4.jpg?v=5" alt="" class="product__img hover">
+                            </a>
+                    
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick view">
+                                    <img src="assets/icons/eye-fill.svg" alt="eye-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Add to WishList">
+                                    <img src="assets/icons/heart-fill.svg" alt="heart-fill" class="icon">
+                                </a>
+                    
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <img src="assets/icons/shuffle.svg" alt="shuffle" class="icon">
+                                </a>
+                            </div>
+                    
+                            <div class="product__badge light-pink">BestBuy</div>
+                        </div>
+                    
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Apple iPad Pro 2022</h3>
+                            </a>
+                            <div class="product__rating">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                                <img src="assets/icons/star-fill.svg" alt="star-fill" class="icon">
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$816.33</span>
+                                <span class="old__price">$955.21</span>
+                            </div>
+                    
+                            <a href="#" class="action__b cart__btn action__btn" aria-label="Add to Cart">
+                            <img src="assets/icons/cart-plus.svg" alt="cart-plus">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== NEWSLETTER ===============-->
+            <section class="newsletter section">
+                <div class="newsletter__container container grid">
+                    <h3 class="newsletter__title flex">
+                        <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+                        Sigh up to NewsLetter
+                    </h3>
+
+                    <p class="newsletter_description">...and receive $25 coupon for first shoping</p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <button type="submit" class="newsletter__btn">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <a href="index.html" class="footer__logo">
+                        <img src="assets/images/logo.png" alt="" class="footer__logo-img">
+                    </a>
+
+                    <h4 class="footer__subtitle">Contact</h4>
+
+                    <p class="footer__description">
+                        <span>Address:</span> 562 Wellington Road, street 32, San Francisco
+                    </p>
+
+                    <p class="footer__description">
+                        <span>Phone:</span> +01 2222 365 /(+91) 01 2345 6789
+                    </p>
+
+                    <p class="footer__description">
+                        <span>Hours:</span> 10:00 - 18:00, Mon - Sat
+                    </p>
+
+                    <div class="footer__social">
+                        <h4 class="footer__subtitle">Follow Me</h4>
+
+                        <div class="footer__social-links flex">
+                            <a href="">
+                                <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__links">
+                        <li><a href="" class="footer__link">About Us</a></li>
+                        <li><a href="" class="footer__link">Delivery Information</a></li>
+                        <li><a href="" class="footer__link">Privacy pollicy</a></li>
+                        <li><a href="" class="footer__link">Terms & Conditions</a></li>
+                        <li><a href="" class="footer__link">Content Us</a></li>
+                        <li><a href="" class="footer__link">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">My Account</h3>
+
+                    <ul class="footer__links">
+                        <li><a href="" class="footer__link">Sigh In</a></li>
+                        <li><a href="" class="footer__link">View Cart</a></li>
+                        <li><a href="" class="footer__link">My WishList</a></li>
+                        <li><a href="" class="footer__link">Track My Order</a></li>
+                        <li><a href="" class="footer__link">Help</a></li>
+                        <li><a href="" class="footer__link">Order</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Search Payment Gatways</h3>
+
+                    <img src="assets/img/payment-method.png" alt="" class="payment__img">
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="copyright">&copy; 2024 Doron all right reserved</p>
+                <span class="designer">Designed by Doron</span>
+            </div>
+        </footer>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
