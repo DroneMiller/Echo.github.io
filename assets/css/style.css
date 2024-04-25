@@ -154,12 +154,14 @@ table {
     font-size: var(--small-font-size);
 }
 
-.new__price {
+.new__price,
+.new__price-data {
     color: var(--first-color);
     font-weight: var(--weight-600);
 }
 
-.old__price {
+.old__price,
+.old__price-data {
     color: var(--text-color-light);
     font-size: var(--small-font-size);
     text-decoration: line-through;
@@ -297,6 +299,66 @@ table {
 .active-link,
 .nav__link:hover {
     color: var(--first-color);
+}
+
+/*=============== SLIDER ===============*/
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 600%;
+    margin: 0;
+    left: 0;
+    animation-name: slider;
+    animation-duration: 24s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+#slider figure a img {
+    width: 16.66667%;
+    float: left;
+    border-radius: 35px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    15% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    35% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    55% {
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    95% {
+        left: -400%;
+    }
+    100% {
+        left: -500%;
+    }
 }
 
 /*=============== HOME ===============*/
@@ -982,16 +1044,54 @@ table {
     grid-template-columns: 5.5fr 6.5fr;
 }
 
+.product-rating{
+    margin: 0.5rem 0;
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: var(--weight-600);
+    color: #252525;
+}
+
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: var(--normal-font-size);
+    padding: var(--normal-font-size);
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: var(--normal-font-size);
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: var(--weight-700);
+}
+.product-detail ul li span{
+    font-weight: var(--weight-500);
+}
+
 .details__img {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
 
 .details__small-images {
+    margin-top: 2rem;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 0.625rem;
 }
 
 .details__small-img {
+    width: 6rem;
+    height: 10rem;
     cursor: pointer;
 }
 
@@ -1098,9 +1198,17 @@ table {
 }
 
 .details__action-btn {
+    background-color: red;
+    border-radius: 50%;
     color: var(--text-color);
     line-height: 40px;
     padding-inline: 0.75rem;
+}
+
+.details__action-btn svg {
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .details__meta {

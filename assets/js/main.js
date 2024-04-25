@@ -21,17 +21,25 @@ if(navClose) {
 
 /*=============== IMAGE GALLERY ===============*/
 function imgGallery() {
-    const mainImg = document.querySelector('.details__img'),
-    smallImg = document.querySelectorAll('.details__small-img');
+  const mainImg = document.querySelector('.details__img'),
+  smallImg = document.querySelectorAll('.details__small-img');
 
-    smallImg.forEach((img) => {
-        img.addEventListener('click', function() {
-            mainImg.src = this.src;
-        });
-    });
+  smallImg.forEach((img) => {
+      img.addEventListener('click', function() {
+          mainImg.src = this.src;
+      });
+  });
 }
 
 imgGallery();
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);
 
 /*=============== SWIPER CATEGORIES ===============*/
 var swiperCategories = new Swiper(".categories__container", {
@@ -92,6 +100,7 @@ var swiperProducts = new Swiper(".new__container", {
         },
       },
   });
+
 /*=============== PRODUCTS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
     tabContents = document.querySelectorAll('[content]');
@@ -112,6 +121,7 @@ tabs.forEach((tab) => {
         tab.classList.add('active-tab');
     });
 });
+
 /*=============== Tawk.to Script ===============*/
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
