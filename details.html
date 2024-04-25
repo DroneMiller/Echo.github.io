@@ -10,6 +10,8 @@
             href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css' 
         />
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
         <!--=============== SWIPER CSS ===============-->
         <link 
             rel="stylesheet" 
@@ -104,9 +106,11 @@
                 <ul class="breadcrumb__list flex container">
                     <li><a href="index.html" class="bredcrumb__link">Home</a></li>
                     <li><span class="breadcrumb__link">></span></li>
-                    <li><span class="breadcrumb__link">Fashion</span></li>
+                    <li><a href="shop.html" class="bredcrumb__link">Shop</a></li>
                     <li><span class="breadcrumb__link">></span></li>
-                    <li><span class="breadcrumb__link">Henley Shirt</span></li>
+                    <li><span class="breadcrumb__link category-data">Fashion</span></li>
+                    <li><span class="breadcrumb__link">></span></li>
+                    <li><span class="breadcrumb__link name-data">Henley Shirt</span></li>
                 </ul>
             </section>
 
@@ -114,28 +118,44 @@
             <section class="details section--lg">
                 <div class="details__container container grid">
                     <div class="details__group">
-                        <img src="assets/img/product-8-1.jpg" alt="" class="details__img">
+                        <img src="assets/img/product-8-1.jpg" alt="" class="details__img details__img">
+
 
                         <div class="details__small-images grid">
-                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img">
-                            <img src="assets/img/product-8-1.jpg" alt="" class="details__small-img">
-                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img">
+                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img details__img1">
+                            <img src="assets/img/product-8-1.jpg" alt="" class="details__small-img details__img2">
+                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img details__img3">
+                            <img src="assets/img/product-8-2.jpg" alt="" class="details__small-img details__img4">
                         </div>
                     </div>
 
                     <div class="details__group">
                         <h3 class="details__title">Henley Shirt</h3>
-                        <p class="details__brand">Brands: <span>adidas</span></p>
+                        <div class = "product-rating">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="details__brand">Brands: <span class="brand__data">NO DATA</span></p>
 
                         <div class="details__price flex">
-                            <span class="new__price">$116</span>
-                            <span class="old__price">$200.00</span>
-                            <span class="save__price">25% off</span>
+                            <span class="new__price"></span>
+                            <span class="old__price"></span>
                         </div>
 
-                        <p class="short__description">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita obcaecati sunt quo soluta possimus, vitae modi dolorem iusto hic alias molestiae mollitia consequuntur. Dolore, quibusdam mollitia. Rem harum eum et.
-                        </p>
+                        <div class = "product-detail">
+                            <h2>about this item: </h2>
+                            <p>Galaxy S24 Ultra smartphone from Samsung.</p>
+                            <p class="description__small">Galaxy S24 Ultra - the first device with AI that makes life easier. It has a luxurious premium design, new fashionable colors, high durability, a bright and powerful screen, a high resolution camera and an AI engine for upgraded photography. Upgraded cooling system, powerful battery and IP68 rating for resistance to dust and water. Includes a built-in S-Pen.</p>
+                            <ul>
+                              <li>Color: <span class="color-data">Black</span></li>
+                              <li>Available: <span class="stock-data">in stock</span></li>
+                              <li>Shipping Area: <span>All over the world</span></li>
+                              <li>Shipping Fee: <span>Free</span></li>
+                            </ul>
+                          </div>
 
                         <ul class="product__list">
                             <li class="list__item flex">
@@ -158,54 +178,6 @@
                             </li>
                         </ul>
 
-                        <div class="details__color flex">
-                            <span class="details__color-title">Color</span>
-
-                            <ul class="color__list">
-                                <li>
-                                    <a href="#" class="color__link" style="background-color: hsl(37, 100%, 65%);"></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="color__link" style="background-color: hsl(353, 100%, 67%);"></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="color__link" style="background-color: hsl(49, 100%, 60%);"></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="color__link" style="background-color: hsl(304, 100%, 78%);"></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="color__link" style="background-color: hsl(126, 100%, 52%);"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="details__size flex">
-                            <span class="details__size-title">Size</span>
-
-                            <ul class="size__list">
-                                <li>
-                                    <a href="#" class="size__link size-active">M</a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="size__link">L</a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="size__link">XL</a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="size__link">XXl</a>
-                                </li>
-                            </ul>
-                        </div>
-
                         <div class="details__action">
                             <input type="number" class="quantity" value="3">
 
@@ -214,13 +186,14 @@
                             <a href="#" class="details__action-btn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-                                  </svg>
+                                </svg>
+                            </a>
                         </div>
 
                         <ul class="details__meta">
-                            <li class="mete__list flex"><span>SKU:</span> FWM15VKT</li>
-                            <li class="mete__list flex"><span>Tags:</span> Cloth, Women, Dress</li>
-                            <li class="mete__list flex"><span>Availability:</span> 8 items in stock</li>
+                            <li class="mete__list flex"><span class="id-data">ID: 0 </span></li>
+                            <li class="mete__list flex"><span class="categori-data">Category: none</span></li>
+                            <li class="mete__list flex"><span class="available-data">Availability: Not Availabil</span></li>
                         </ul>
                     </div>
                 </div>
@@ -739,5 +712,58 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+        <!--===============DATABASE JS ===============-->
+        <script>
+            let products = null;
+            fetch('assets/js/database.json')
+            .then(response => response.json())
+            .then(data => {
+            products = data;
+            showDetails();
+            })
+
+            function showDetails() {
+                let details = document.querySelector('.details__container');
+                let productId = new URLSearchParams(window.location.search).get('id');
+                let breadcrumb = document.querySelector('.breadcrumb');
+                let thisProduct = products.filter(value => {
+                    return value.id == productId;
+                })[0];
+                // if there is no product has id = product.id
+                // => return to home Page
+
+                if(!thisProduct){
+                    window.location.href = "shop.html";
+                }
+
+                //set the image Gallry
+                details.querySelector('.details__img').src = thisProduct.img1;
+                details.querySelector('.details__img1').src = thisProduct.img1;
+                details.querySelector('.details__img2').src = thisProduct.img2;
+                details.querySelector('.details__img3').src = thisProduct.img3;
+                details.querySelector('.details__img4').src = thisProduct.img4;
+                //set the content
+                details.querySelector('.details__title').innerHTML = thisProduct.name;
+                details.querySelector('.brand__data').innerHTML = thisProduct.brand;
+                details.querySelector('.new__price').innerHTML = "$" + thisProduct.newprice;
+                details.querySelector('.old__price').innerHTML = "$" + thisProduct.oldprice;
+                details.querySelector('.description__small').innerHTML = thisProduct.descriptionsmall;
+                details.querySelector('.color-data').innerHTML = thisProduct.color;
+                details.querySelector('.stock-data').innerHTML = thisProduct.available;
+
+
+                details.querySelector('.id-data').innerHTML = "ID: " + thisProduct.id;
+                details.querySelector('.categori-data').innerHTML = "Category: " + thisProduct.category;
+                details.querySelector('.available-data').innerHTML = "Available: " + thisProduct.available;
+
+
+
+
+                
+                breadcrumb.querySelector('.category-data').innerHTML = thisProduct.category;
+                breadcrumb.querySelector('.name-data').innerHTML = thisProduct.name;
+            }
+        </script>
     </body>
 </html>
