@@ -154,7 +154,7 @@ function addDataToHTML(){
     products.forEach(product => {
         //create a new element item
         let newproduct = document.createElement('a');
-        newproduct.href = '/details.html?id=' + product.id;
+        newproduct.href = 'Echo.github.io//details.html?id=' + product.id;
         newproduct.classList.add('product__item');
         newproduct.innerHTML = `
         <div class="product__item">
@@ -254,7 +254,7 @@ function renderProducts(products) {
     listProduct.innerHTML = ''; // Clear existing products
     products.forEach(product => {
         const newProduct = document.createElement('a');
-        newProduct.href = '/details.html?id=' + product.id;
+        newProduct.href = '/Echo.github.io/details.html?id=' + product.id;
         newProduct.classList.add('product__item');
         newProduct.innerHTML = `
             <div class="product__item">
