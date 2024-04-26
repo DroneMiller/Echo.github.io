@@ -467,30 +467,13 @@ table {
     overflow: initial;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    content: '';
-}
-
 .swiper-button-next,
 .swiper-button-prev {
-    top: -1.875rem;
-    background-color: var(--first-color-alt);
-    border: 1px solid var(--border-color);
     width: 30px;
     height: 30px;
     border-radius: 50%;
     color: var(--first-color);
     font-size: var(--tiny-font-size);
-}
-
-.swiper-button-prev {
-    left: initial;
-    right: 2.5rem;
-}
-
-.swiper-button-next {
-    right: 0;
 }
 
 /*=============== PRODUCTS ===============*/
@@ -1080,6 +1063,8 @@ table {
 }
 
 .details__img {
+    
+    height: 30rem;
     margin-bottom: 0.1rem;
 }
 
@@ -1090,7 +1075,6 @@ table {
 }
 
 .details__small-img {
-    width: 6rem;
     height: 10rem;
     cursor: pointer;
 }
